@@ -9,7 +9,7 @@ A basic understanding of FastAPI, a modern, fast (high-performance), web framewo
 A basic understanding of what an ORM is. If you are not familiar with ORM, we recommend you to read this wiki page to get an idea of what it is and how it works.
 
 
-Requirements.txt file
+**Requirements.txt file**
     fastapi: A package for FastAPI, a modern web framework for building APIs with Python 3.7+ based on standard Python type hints. It's designed to be easy to use, fast, and to provide automatic validation of request and response data.
     uvicorn: A package for Uvicorn, a fast ASGI server implementation, using the websockets library for long-polling connections, and based on uvloop and httptools.
     
@@ -25,5 +25,6 @@ Requirements.txt file
     python-multipart: A library that allows you to parse multipart form data in Python, which is commonly used to handle form submissions that contain files such as images or videos. In the case of this tutorial, it will be used to handle form data from the user's input through the WhatsApp chatbot.
     
     pyngrok: A Python wrapper for ngrok, a tool that allows you to expose a web server running on your local machine to the internet. You'll use it to test your Twilio webhook while you send WhatsApp messages.
+    
     
     
